@@ -19,7 +19,7 @@ class _MainScreenState extends State<MainScreen> {
     const HomePage(),
     const ManageTasksPage(),
     const StatisticsPage(),
-    const SettingsPage(),
+    SettingsPage(),
     const CalendarPage(),
   ];
 
