@@ -18,7 +18,7 @@ class _MainScreenState extends State<MainScreen> {
   final List<Widget> _pages = [
     const HomePage(),
     const ManageTasksPage(),
-    const StatisticsPage(),
+    StatisticsPage(),
     SettingsPage(),
     const CalendarPage(),
   ];
@@ -50,7 +50,7 @@ class _MainScreenState extends State<MainScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.insert_chart),
-            label: 'Statistics',
+            label: 'Daily tasks',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
